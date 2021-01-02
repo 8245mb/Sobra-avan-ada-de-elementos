@@ -1,0 +1,30 @@
+
+body {
+    background: #bce4dde5; 
+    margin: 0;
+   } 
+
+   #janela  {
+       position: relative;
+       margin: 100px auto 50px;
+       width: 700px;
+       height: 250px;
+       border-radius: 5px;
+       background-color: rgba(8, 143, 102, 0.856);
+   }
+
+   #janela:before, #janela:after {
+       position: absolute;
+       content: "";
+       box-shadow: 0 0 20px rgba(3, 45, 65, 0.747);
+       top: 40%;
+       bottom: 30px;
+       right: 10px;
+       left: 10px;
+       border-radius: 130px/15px;
+   }
+
+   #janela:after {
+       right: 10px;
+       left: auto;
+   }
